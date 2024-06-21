@@ -1,7 +1,7 @@
 {
-  "name": "bizkar",
+  "homepage": "https://horusknox.github.io/VR-ing-Democracy",
+  "name": "VRingDemocracy",
   "version": "0.1.0",
-  "homepage": "http://solverwp.com/demo/react/bizkar",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.6",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject"
