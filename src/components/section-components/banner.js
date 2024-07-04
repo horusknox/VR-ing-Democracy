@@ -15,9 +15,9 @@ class Banner extends Component {
 				    <div className="row">
 				      <div className="col-lg-6">
 				        <div className="banner-one__content">
-				          <h3><span>Discover New </span> <br />Idea To Build <br /> Your <em>Business</em></h3>
-				          <p>We are professional &amp; Experiene Digital Agency</p>
-				          <Link to="/service" className="thm-btn banner-one__btn">Discover Now <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
+				          <h3><span>VR'ing </span> <br />Democracy <br /></h3>
+				          <p>Empowering every vote through virtual reality</p>
+				          <Link to="/service" className="thm-btn banner-one__btn"> Get in touch <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
 				        </div>
 				      </div>
 				    </div>

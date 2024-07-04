@@ -25,13 +25,11 @@ class WhyChooseUs extends Component {
                       <img src={publicUrl+"assets/images/shapes/service-i-1.png"} alt={ imagealt } />
                     </div>{/* /.service-one__icon */}
                     <div className="service-one__top-content">
-                      <h3><Link to="/service-details">Business Strategy &amp; Market Research</Link></h3>
-                      <p>Improve Business</p>
+                      <h3><Link to="/service-details">Transforming US Voting Trends with Virtual Reality</Link></h3>
+                      <p>Voting Innovation</p>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
-                  <p>Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab
-                    ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun.</p>
-                </div>{/* /.service-one__single */}
+                  <p>Immigrants in the U.S. face language barriers and limited polling knowledge. VR can offer multilingual virtual polling experience and voter education, making voting more accessible.</p>                </div>{/* /.service-one__single */}
               </div>{/* /.col-lg-4 */}
               <div className="col-lg-4">
                 <div className="service-one__single">
