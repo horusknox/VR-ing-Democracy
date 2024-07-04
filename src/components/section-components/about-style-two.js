@@ -17,38 +17,51 @@ class AboutStyleTwo extends Component {
 		      <div className="col-lg-6">
 		        <div className="about-two__content">
 		          <div className="block-title text-left">
-		            <p><span>What We Do</span></p>
-		            <h3>We Offer Best Soluation <br /> For Your Business</h3>
+		            <p><span></span></p>
+		            <h3>Major concerns 
+						<br />
+						 </h3>
 		            <div className="block-title__line" />{/* /.block-title__line */}
 		          </div>{/* /.block-title */}
-		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt ut labore
+		          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt ut labore
 		            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi
-		            ut aliquip exea commodo consequat.</p>
+		            ut aliquip exea commodo consequat.</p> */}
 		          <div className="about-two__box">
 		            <div className="about-two__box-icon">
-		              <i className="far fa-leaf" />
+					<i className="fas fa-exclamation-circle" />
 		            </div>{/* /.about-two__box-icon */}
 		            <div className="about-two__box-content">
-		              <h3>Manage Your Project</h3>
-		              <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna
-		                aliqua. Ut enim ad minim veniam</p>
+		              <h3>Issue</h3>
+		              <p>Minority communities continue to exhibit lower turnout rates
+					  in voting due to historical lack of experience with the process.</p>
 		            </div>{/* /.about-two__box-content */}
 		          </div>{/* /.about-two__box */}
 		          <div className="about-two__box">
 		            <div className="about-two__box-icon">
-		              <i className="far fa-laptop-code" />
+					<i className="fas fa-bullseye" />
 		            </div>{/* /.about-two__box-icon */}
 		            <div className="about-two__box-content">
-		              <h3>Business &amp; Data Analytics</h3>
-		              <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna
-		                aliqua. Ut enim ad minim veniam</p>
+		              <h3>Impact</h3>
+		              <p>
+						When underrepresented communities don't vote, their
+voices on critical issues are persistently disregarded by historically
+inattentive governments.
+</p>
 		            </div>{/* /.about-two__box-content */}
 		          </div>{/* /.about-two__box */}
 		        </div>{/* /.about-two__content */}
 		      </div>{/* /.col-lg-6 */}
 		    </div>{/* /.row */}
 		  </div>{/* /.container */}
+		  <br></br>
+		  <br></br>
+		  <br></br>
+		  <br></br>
+		  <br></br>
+		  <br></br>
+		  <br></br>
 		</section>
+
 
 
         }

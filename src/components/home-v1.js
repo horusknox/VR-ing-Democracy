@@ -18,13 +18,13 @@ const Home_V1 = () => {
     return <div>
         <Navbar />
         <Banner />
-        <Brand />
+        {/* <Brand /> */}
         <WhyChooseUs />
         <AboutStyleOne />
         <AboutStyleTwo />
         <Team />
         <Skill />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Funfact />
         <Testimonial />
         <CTA />

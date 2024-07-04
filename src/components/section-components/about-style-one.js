@@ -16,19 +16,32 @@ class AboutStyleOne extends Component {
 			      <div className="col-lg-6">
 			        <div className="about-one__content">
 			          <div className="block-title text-left">
-			            <p><span>About Us</span></p>
-			            <h3>We Are Specialized In <br /> Business Soluation</h3>
+			            {/* <p><span>The Problem</span></p> pink box thingy*/}
+			            <h3>The problem<br /></h3>
 			            <div className="block-title__line" />{/* /.block-title__line */}
 			          </div>{/* /.block-title */}
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid dunt
-			            utlabore et dolore magna aliqua. Ut enim ad minim veniam weay.</p>
-			          <h4>We Are Always With You</h4>
-			          <p>But we must be dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-			            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-			            laboris nisi ut aliquip exea commodo consequat</p>
-			          <Link to="/about" className="thm-btn about-one__btn">Read More <i className="fa fa-angle-double-right" /></Link>
+			          <h4>“For immigrants, the voting process can seem complicated and meaningless.”
+						<br></br>
+						<br></br>
+							- Nonprofit Vote
+							</h4>
+			          <h4>“An individual who votes in one election is likely to vote in the subsequent election.”
+						<br></br>
+						<br></br>
+							- University College Dublin
+					  </h4>
+			          {/* <Link to="/about" className="thm-btn about-one__btn">Read More <i className="fa fa-angle-double-right" /></Link> */}
 			          {/* /.thm-btn */}
 			        </div>{/* /.about-one__content */}
+
+
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
 			      </div>{/* /.col-lg-6 */}
 			    </div>{/* /.row */}
 			  </div>{/* /.container */}

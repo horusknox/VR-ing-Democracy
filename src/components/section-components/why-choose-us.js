@@ -12,9 +12,9 @@ class WhyChooseUs extends Component {
     return  <section className="service-one go-top">
           <div className="container">
             <div className="block-title text-center">
-              <p><span>Why Like Us</span></p>
-              <h3>Success Your Business With <br />
-                Establish Agency</h3>
+              <p><span>OVERVIEW</span></p>
+              <h3>Empowering U.S. Immigrants to Vote <br />
+                Confidently</h3>
               <div className="block-title__line" />{/* /.block-title__line */}
             </div>{/* /.block-title */}
             <div className="row high-gutter  go-top">
@@ -38,13 +38,18 @@ class WhyChooseUs extends Component {
                       <img src={publicUrl+"assets/images/shapes/service-i-2.png"} alt={ imagealt } />
                     </div>{/* /.service-one__icon */}
                     <div className="service-one__top-content">
-                      <h3><Link to="/service-details">SEO, PPC &amp; Social
-                          Media Soluation</Link></h3>
-                      <p>SEO Optimization</p>
+                      <h3>
+                      Empowering U.S. Immigrants
+                        {/* <Link to="/service-details">SEO, PPC &amp; Social
+                          Media Soluation</Link> */}
+                          </h3>
+                      <p>Vote Confidently</p>
+                      <br></br>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
-                  <p>Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab
-                    ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun.</p>
+                  <p>
+                  Our VR project helps U.S. immigrants learn about voting through immersive simulations. It provides hands-on experience that is really helpful for first-time voters. This empowers them to confidently participate in elections.
+                    </p>
                 </div>{/* /.service-one__single */}
               </div>{/* /.col-lg-4 */}
               <div className="col-lg-4">
@@ -57,10 +62,12 @@ class WhyChooseUs extends Component {
                       <h3><Link to="/service-details">Web Design And
                           Development</Link></h3>
                       <p>Web Soluations</p>
+                      <br></br>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
-                  <p>Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab
-                    ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun.</p>
+                  <p>
+                  This VR project enhances the USA by encouraging civic engagement among immigrants, fostering a more informed electorate. By simplifying the voting process, it promotes inclusivity and ensures diverse voices are heard, strengthening democracy.
+                   </p>
                 </div>{/* /.service-one__single */}
               </div>{/* /.col-lg-4 */}
             </div>{/* /.row */}

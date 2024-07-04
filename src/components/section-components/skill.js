@@ -17,47 +17,46 @@ class Skill extends Component {
 			      <div className="col-lg-6">
 			        <div className="progress-one__content">
 			          <div className="block-title text-left">
-			            <p><span>Our Skills</span></p>
-			            <h3>know Everything About <br /> Professional Skills</h3>
+			            {/* <p><span></span></p> */}
+			            <h3>Let's talk Numbers</h3>
 			            <div className="block-title__line" />{/* /.block-title__line */}
 			          </div>{/* /.block-title */}
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt ut labore
-			            et dolore magna aliqua. Ut enim ad minim veniam</p>
+			          <p>Here are a few statistics about U.S. voting in the past 10 years (Approx.)</p>
 			          <div className="progress-one__progress-wrap">
 			            <div className="progress-one__progress__bar">
 			              <div className="progress-one__progress__bar-top">
-			                <h3>Business Strategy</h3>
+			                <h3>Young voters (ages 18-29) </h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '95%', backgroundColor: '#3f02a8'}}>
-			                  <b>95%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '47.5%', backgroundColor: '#3f02a8'}}>
+			                  <b>47.5%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			            <div className="progress-one__progress__bar">
 			              <div className="progress-one__progress__bar-top">
-			                <h3>SEO Optimization</h3>
+			                <h3>Registraitons for voting</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '87%', backgroundColor: '#ff57a4'}}>
-			                  <b>87%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '75%', backgroundColor: '#ff57a4'}}>
+			                  <b>75%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			            <div className="progress-one__progress__bar">
 			              <div className="progress-one__progress__bar-top">
-			                <h3>Social Media Marketing</h3>
+			                <h3>Economically backward people who vote</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '63%', backgroundColor: '#00c8b3'}}>
-			                  <b>63%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '68.2%', backgroundColor: '#00c8b3'}}>
+			                  <b>68.2%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			            <div className="progress-one__progress__bar">
 			              <div className="progress-one__progress__bar-top">
-			                <h3>Web Development</h3>
+			                <h3>Eligible immigrant who vote</h3>
 			              </div>{/* /.progress-one__progress__bar-top */}
 			              <div className="progress-one__progress__bar-line">
-			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '55%', backgroundColor: '#ff9b0d'}}>
-			                  <b>55%</b></span>
+			                <span className="wow fadeIn" data-wow-duration="1500ms" style={{width: '54.7%', backgroundColor: '#ff9b0d'}}>
+			                  <b>54.7%</b></span>
 			              </div>{/* /.progress-one__progress__bar-line */}
 			            </div>{/* /.progress-one__progress__bar */}
 			          </div>{/* /.progress-one__progress-wrap */}
