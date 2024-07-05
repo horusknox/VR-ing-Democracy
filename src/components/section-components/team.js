@@ -21,7 +21,7 @@ class Team extends Component {
                         <div className="col-lg-4 col-md-6"> {/* Changed to col-lg-4 to accommodate three members */}
                             <div className="team-one__single">
                                 <div className="team-one__image">
-                                    <img src={publicUrl+"assets/images/team/team-1-1.jpg"} alt={ imagealt } />
+                                    <img src={publicUrl+"assets/images/team/Anushka.jpg"} alt={ imagealt } />
                                 </div>{/* /.team-one__image */}
                                 <div className="team-one__content">
                                     <div className="team-one__social">
@@ -31,31 +31,14 @@ class Team extends Component {
                                         <a href="#"><i className="fab fa-behance" /></a>
                                     </div>{/* /.team-one__social */}
                                     <h3>Anushka Kalyan</h3>
-                                    <p>Web designer</p>
+                                    <p>Climate Justice Advocate</p>
                                 </div>{/* /.team-one__content */}
                             </div>{/* /.team-one__single */}
                         </div>{/* /.col-lg-4 */}
                         <div className="col-lg-4 col-md-6"> {/* Another team member */}
                             <div className="team-one__single">
                                 <div className="team-one__image">
-                                    <img src={publicUrl+"assets/images/team/team-1-2.jpg"} alt={ imagealt } />
-                                </div>{/* /.team-one__image */}
-                                <div className="team-one__content">
-                                    <div className="team-one__social">
-                                        <a href="#"><i className="fab fa-facebook-f" /></a>
-                                        <a href="#"><i className="fab fa-twitter" /></a>
-                                        <a href="#"><i className="fab fa-google-plus-g" /></a>
-                                        <a href="#"><i className="fab fa-behance" /></a>
-                                    </div>{/* /.team-one__social */}
-                                    <h3>Jasmine Liu</h3>
-                                    <p>Web designer</p>
-                                </div>{/* /.team-one__content */}
-                            </div>{/* /.team-one__single */}
-                        </div>{/* /.col-lg-4 */}
-                        <div className="col-lg-4 col-md-6"> {/* Another team member */}
-                            <div className="team-one__single">
-                                <div className="team-one__image">
-                                    <img src={publicUrl+"assets/images/team/team-1-3.jpg"} alt={ imagealt } />
+                                    <img src={publicUrl+"assets/images/team/Emily.jpg"} alt={ imagealt } />
                                 </div>{/* /.team-one__image */}
                                 <div className="team-one__content">
                                     <div className="team-one__social">
@@ -65,7 +48,24 @@ class Team extends Component {
                                         <a href="#"><i className="fab fa-behance" /></a>
                                     </div>{/* /.team-one__social */}
                                     <h3>Emily Gorodetskiy</h3>
-                                    <p>Founder/President @ YEA and JEC</p>
+                                    <p> Founder/President @ YEA and JEC</p>
+                                </div>{/* /.team-one__content */}
+                            </div>{/* /.team-one__single */}
+                        </div>{/* /.col-lg-4 */}
+                        <div className="col-lg-4 col-md-6"> {/* Another team member */}
+                            <div className="team-one__single">
+                                <div className="team-one__image">
+                                    <img src={publicUrl+"assets/images/team/Jasmine.jpg"} alt={ imagealt } />
+                                </div>{/* /.team-one__image */}
+                                <div className="team-one__content">
+                                    <div className="team-one__social">
+                                        <a href="#"><i className="fab fa-facebook-f" /></a>
+                                        <a href="#"><i className="fab fa-twitter" /></a>
+                                        <a href="#"><i className="fab fa-google-plus-g" /></a>
+                                        <a href="#"><i className="fab fa-behance" /></a>
+                                    </div>{/* /.team-one__social */}
+                                    <h3>Jasmine Liu</h3>
+                                    <p>Co-Founder of NeuraHope</p>
                                 </div>{/* /.team-one__content */}
                             </div>{/* /.team-one__single */}
                         </div>{/* /.col-lg-4 */}

@@ -49,8 +49,8 @@ class TestimonialOne extends Component {
 			  <div className="container">
 			    <div className="testimonials-one__top">
 			      <div className="block-title text-left">
-			        <p><span>Clients Say</span></p>
-			        <h3>know Everything About <br /> Professional Skills</h3>
+			        <p><span>users Say</span></p>
+			        <h3>This is what our users say about us <br/> </h3>
 			        <div className="block-title__line" />{/* /.block-title__line */}
 			      </div>{/* /.block-title */}
 			      <div className="testimonials-one__carousel-btn__wrap">
@@ -71,10 +71,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Pearl Campbell</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"This VR app was exactly what I needed. It provided a thorough understanding of my voting rights and the entire process. The interactive elements kept me engaged, and I felt well-prepared on election day."</p>
+			            <h3>Elena T.</h3>
+			            <span>Entry-Level Employee</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -85,10 +84,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Landon Anderson</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"The app is a brilliant tool for new immigrants. It breaks down complex information into easy-to-understand segments. The VR aspect makes it interactive and memorable. I felt ready and confident when I went to vote."</p>
+			            <h3>Omar N.</h3>
+			            <span>Gap Year Traveler</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -99,10 +97,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Daniel Howell</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"I loved using this VR app to learn about voting. It was informative and engaging. The realistic scenarios helped me understand what to expect, and I felt so much more confident on voting day."</p>
+			            <h3>Sophia P.</h3>
+			            <span>Community College Student</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -113,10 +110,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Jay Houston</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"I can't thank the creators of this VR app enough. It made a huge difference in how I approached my first voting experience. The simulations were spot-on and really helped me feel at ease."</p>
+			            <h3>Miguel L.</h3>
+			            <span>Part-time Worker</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -127,10 +123,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Austin Houston</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"This app is fantastic! It gave me the confidence to participate in my first election. The virtual environment made it easy to understand my rights and the voting process. I felt so empowered!"</p>
+			            <h3>Fatima S.</h3>
+			            <span>University Student</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -141,10 +136,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Myrtie Wise</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"The VR experience was immersive and educational. It made learning about voting rights fun and accessible. I appreciated the detailed explanations and practical tips. Great app for first-time voters!"</p>
+			            <h3>Jin H.</h3>
+			            <span>Intern at Google</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -155,10 +149,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Ronald Sharp</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"As a new citizen, I found this VR app incredibly helpful. It demystified the voting process and empowered me with the knowledge I needed. I went to vote feeling prepared and confident."</p>
+			            <h3>Aisha K.</h3>
+			            <span>Recent Graduate</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -169,10 +162,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Sophia Zimmerman</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"I was always nervous about voting in a new country, but this app really helped me understand the process. The virtual scenarios were realistic and informative. It was like having a personal guide."</p>
+			            <h3>Carlos M.</h3>
+			            <span>High School Senior</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -183,10 +175,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Chester Ortiz</h3>
-			            <span>CEO &amp; Founder</span>
+			            <p>"This VR app was a game-changer for me. It made learning about my voting rights so engaging and interactive. I felt so much more confident going to the polls for the first time. Highly recommend it to all new immigrants!"</p>
+			            <h3>Emily R.</h3>
+			            <span>College Student</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}

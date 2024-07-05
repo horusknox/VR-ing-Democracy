@@ -23,12 +23,12 @@ const Home_V1 = () => {
         <AboutStyleOne />
         <AboutStyleTwo />
         <Team />
-        <Skill />
+        {/* <Skill /> */}
         {/* <Portfolio /> */}
         <Funfact />
         <Testimonial />
-        <CTA />
-        <PostSlider />
+        {/* <CTA /> */}
+        {/* <PostSlider /> */}
         <Footer />
     </div>
 }
