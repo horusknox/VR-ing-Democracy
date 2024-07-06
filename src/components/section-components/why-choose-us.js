@@ -59,9 +59,9 @@ class WhyChooseUs extends Component {
                       <img src={publicUrl+"assets/images/shapes/service-i-3.png"} alt={ imagealt } />
                     </div>{/* /.service-one__icon */}
                     <div className="service-one__top-content">
-                      <h3><Link to="/service-details">Web Design And
-                          Development</Link></h3>
-                      <p>Web Soluations</p>
+                      <h3><Link to="/service-details">Enhancing Civic Engagement Through VR
+                      </Link></h3>
+                      <p>Strengthening Democracy</p>
                       <br></br>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
