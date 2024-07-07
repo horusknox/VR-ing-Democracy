@@ -31,7 +31,7 @@ class Team extends Component {
                                         <a href="#"><i className="fab fa-behance" /></a>
                                     </div>{/* /.team-one__social */}
                                     <h3>Anushka Kalyan</h3>
-                                    <p>Climate Justice Advocate</p>
+                                    {/* <p>Climate Justice Advocate</p> */}
                                 </div>{/* /.team-one__content */}
                             </div>{/* /.team-one__single */}
                         </div>{/* /.col-lg-4 */}
@@ -48,7 +48,7 @@ class Team extends Component {
                                         <a href="#"><i className="fab fa-behance" /></a>
                                     </div>{/* /.team-one__social */}
                                     <h3>Emily Gorodetskiy</h3>
-                                    <p> Founder/President @ YEA and JEC</p>
+                                    {/* <p> Founder/President @ YEA and JEC</p> */}
                                 </div>{/* /.team-one__content */}
                             </div>{/* /.team-one__single */}
                         </div>{/* /.col-lg-4 */}
@@ -65,7 +65,7 @@ class Team extends Component {
                                         <a href="#"><i className="fab fa-behance" /></a>
                                     </div>{/* /.team-one__social */}
                                     <h3>Jasmine Liu</h3>
-                                    <p>Co-Founder of NeuraHope</p>
+                                    {/* <p>Co-Founder of NeuraHope</p> */}
                                 </div>{/* /.team-one__content */}
                             </div>{/* /.team-one__single */}
                         </div>{/* /.col-lg-4 */}
