@@ -75,11 +75,11 @@ class Footer_v1 extends Component {
                     {/* /.footer-widget__title */}
                     <div className="footer-widget__contact-box">
                       <div className="footer-widget__contact-top">
-                        <i className="far fa-map-marked" />
-                        <h3>Address</h3>
+                        <i className="far fa-envelope" />
+                        <h3>E-Mail</h3>
                       </div>
                       {/* /.footer-widget__contact-top */}
-                      <p>205, Khola Street Name, New York, USA</p>
+                      <p>vringdemocracy@gmail.com</p>
                     </div>
                     {/* /.footer-widget__contact-box */}
                     <div className="footer-widget__contact-box">
