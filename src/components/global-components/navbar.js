@@ -79,9 +79,8 @@ class Navbar extends Component {
 			        </ul>
 			      </div>{/* /.main-nav__main-navigation */}
 			      <div className="main-nav__right">
-			        <Link to="/contact" className="thm-btn">FAQs<i className="fa fa-angle-right" /></Link>
-			        {/* /.thm-btn */}
-			      </div>{/* /.main-nav__right */}
+			        {/* <Link to="/contact" className="thm-btn">FAQs<i className="fa fa-angle-right" /></Link> */}
+			      </div>
 			    </div>
 			  </nav>
 			</header>

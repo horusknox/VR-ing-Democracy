@@ -11,16 +11,16 @@ class Page_header extends Component {
         let Img = this.props.Img ? this.props.Img :'page-header-bg-1-1.jpg'
 
         return (
-			<section className="page-header" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/'+Img+')'}}>
-				  <div className="container">
-				    <h2>{ HeaderTitle }</h2>
-				    <ul className="list-unstyled thm-breadcrumb">
-				      <li><a href="#">Home</a></li>
-				      <li><span>{ Subheader }</span></li>
-				    </ul>{/* /.list-unstyled thm-breadcrumb */}
-				  </div>{/* /.container */}
-			</section>
-
+			// <section className="page-header" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/'+Img+')'}}>
+			// 	  <div className="container">
+			// 	    <h2>{ HeaderTitle }</h2>
+			// 	    <ul className="list-unstyled thm-breadcrumb">
+			// 	      <li><a href="#">Home</a></li>
+			// 	      <li><span>{ Subheader }</span></li>
+			// 	    </ul>{/* /.list-unstyled thm-breadcrumb */}
+			// 	  </div>{/* /.container */}
+			// </section>
+			<div></div>
         )
     }
 }

@@ -18,50 +18,35 @@ class NavbarV2 extends Component {
 			      </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">
 			        <ul className=" main-nav__navigation-box">
-			          <li className="dropdown">
+			          <li>
 			            <Link to="/">Home</Link>
-			            <ul>
+			            {/* <ul>
 			              <li><Link to="/home-v2">Home 02</Link></li>
 			              <li><Link to="/home-v3">Home 03</Link></li>
 			              <li><Link to="/home-v4">Home 04</Link></li>
-			            </ul>{/* /.sub-menu */}
+			            </ul> */}
+						{/* /.sub-menu */}
 			          </li>
 			          <li>
-			            <Link to="/about">About</Link>
+			            <Link to="/about">About Us</Link>
 			          </li>
-			          <li className="dropdown">
-			            <a href="#">Services</a>
-			            <ul>
+			          <li>
+			            <a href="#">Quest Location</a>
+			            {/* <ul>
 			              <li><Link to="/service">Services 01</Link></li>
 			              <li><Link to="/service-v2">Services 02</Link></li>
 			              <li><Link to="/service-details">Services Details</Link></li>
-			            </ul>{/* /.sub-menu */}
+			            </ul> */}
+						{/* /.sub-menu */}
 			          </li>
-			           <li className="dropdown">
-			            <a href="#">Work</a>
-			            <ul>
-			              <li><Link to="/portfolio-standard">Portfolio Standard</Link></li>
-			              <li><Link to="/portfolio-full">Portfolio Full</Link></li>
-			              <li><Link to="/portfolio-masonary">Portfolio Masonary</Link></li>
-			              <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li className="dropdown">
-			            <a href="#">Pages</a>
-			            <ul>
-			              <li><Link to="/pricing">Pricing</Link></li>
-			              <li><Link to="/faq">FAQ</Link></li>
-			              <li><Link to="/testimonial">Testimonials</Link></li>
-			              <li><Link to="/team">Team</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			           <li className="dropdown">
+			           <li>
 			            <Link to="/blog-standard">News</Link>
-			            <ul>
+			            {/* <ul>
 			              <li><Link to="/blog-grid">News Page</Link></li>
 			              <li><Link to="/blog-list">News List</Link></li>
 			              <li><Link to="/blog-details">News Details</Link></li>
-			            </ul>{/* /.sub-menu */}
+			            </ul> */}
+						{/* /.sub-menu */}
 			          </li>
 			          <li>
 			            <Link to="/contact">Contact</Link>
@@ -74,9 +59,6 @@ class NavbarV2 extends Component {
 			    </div>{/* /.container */}
 			  </nav>{/* /.main-nav__one */}
 			</header>
-
-
-
         )
     }
 }

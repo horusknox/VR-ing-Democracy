@@ -28,11 +28,11 @@ class Footer_v1 extends Component {
         <footer className="site-footer-one">
           <div className="site-footer-one__upper">
             <div className="container">
-              <img
+              {/* <img
                 src={publicUrl + "assets/images/resources/footer-1-1.png"}
                 alt={imgattr}
                 className="site-footer-one__upper-moc"
-              />
+              /> */}
               <div className="row">
                 <div className="col-lg-3">
                   <div className="footer-widget footer-widget__about">
@@ -71,7 +71,7 @@ class Footer_v1 extends Component {
                 {/* /.col-lg-3 */}
                 <div className="col-lg-4">
                   <div className="footer-widget footer-widget__contact">
-                    <h3 className="footer-widget__title">Official Address</h3>
+                    {/* <h3 className="footer-widget__title">Official Address</h3> */}
                     {/* /.footer-widget__title */}
                     <div className="footer-widget__contact-box">
                       <div className="footer-widget__contact-top">
@@ -82,16 +82,16 @@ class Footer_v1 extends Component {
                       <p>vringdemocracy@gmail.com</p>
                     </div>
                     {/* /.footer-widget__contact-box */}
-                    <div className="footer-widget__contact-box">
+                    {/* <div className="footer-widget__contact-box">
                       <div className="footer-widget__contact-top">
                         <i className="far fa-phone" />
                         <h3>Phone</h3>
-                      </div>
+                      </div> */}
                       {/* /.footer-widget__contact-top */}
-                      <p>
+                      {/* <p>
                         <a href="tel:+82-123-456-89">+82 123 456 89</a>
                       </p>
-                    </div>
+                    </div> */}
                     {/* /.footer-widget__contact-box */}
                   </div>
                   {/* /.footer-widget footer-widget__contact */}
