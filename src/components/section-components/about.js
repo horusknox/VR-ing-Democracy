@@ -21,10 +21,9 @@ class AboutPage extends Component {
 			        <div className="service-two__block">
 			          <div className="block-title-two text-left">
 			            <p>about us</p>
-			            <h3>Exclusive Agency To <br /> Provide Soluation</h3>
+			            <h3>Jasmine<br /> Liu</h3>
 			          </div>{/* /.block-title-two */}
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem
-			            por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+			          <p>This is a test commit for jasmine to understand github and react.js </p>
 			          <ul className="list-unstyled video-one__list">
 			            <li>
 			              <i className="far fa-check" />
