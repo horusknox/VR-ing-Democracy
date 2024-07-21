@@ -26,7 +26,8 @@ const Home_V1 = () => {
         {/* <Skill /> */}
         {/* <Portfolio /> */}
         <Funfact />
-        <Testimonial />
+        <hr></hr>
+        {/* <Testimonial /> */}
         {/* <CTA /> */}
         {/* <PostSlider /> */}
         <Footer />
