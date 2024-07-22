@@ -36,7 +36,7 @@ class Footer_v1 extends Component {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="footer-widget footer-widget__about">
-                    <a href="index-2.html">
+                    <a href="#">
                       <img
                         src={publicUrl + "assets/images/logo-dark.png"}
                         alt={imgattr}
@@ -79,7 +79,8 @@ class Footer_v1 extends Component {
                         <h3>E-Mail</h3>
                       </div>
                       {/* /.footer-widget__contact-top */}
-                      <p>vringdemocracy@gmail.com</p>
+                      {/* <p>vringdemocracy@gmail.com</p> */}
+                        <a href="mailto:vringdemocracy@gmail.com">vringdemocracy@gmail.com</a>
                     </div>
                     {/* /.footer-widget__contact-box */}
                     {/* <div className="footer-widget__contact-box">

@@ -104,7 +104,7 @@ class Footer_v2 extends Component {
 				</div> */}
 				<div className="site-footer-two__bottom">
 					<div className="container">
-						<p>Copy@2022 <a href="#">Bizkar</a>. All Right Reserved.</p>
+						<p>Copy@2024 <a href="#">Vr'ing Democracy</a>. All Right Reserved.</p>
 					</div>
 				</div>
 			</div>

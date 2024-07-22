@@ -15,41 +15,41 @@ class FunfactV4 extends Component {
 			        <div className="funfact-one__single">
 			          <div className="funfact-one__icon">
 			            <i className="far fa-user-alt" />
-			          </div>{/* /.funfact-one__icon */}
-			          <h3><span className="counter">69696969</span>{/* /.counter */}+</h3>
+			          </div>
+			          <h3><span className="counter">69696969</span>+</h3>
 			          <p>Project</p>
-			        </div>{/* /.funfact-one__single */}
-			      </div>{/* /.col-lg-3 col-md-6 */}
+			        </div>
+			      </div>
 			      <div className="col-lg-3 col-md-6">
 			        <div className="funfact-one__single">
 			          <div className="funfact-one__icon">
 			            <i className="far fa-heart" />
-			          </div>{/* /.funfact-one__icon */}
-			          <h3><span className="counter">3.1415926535897932</span>{/* /.counter */}+</h3>
+			          </div>
+			          <h3><span className="counter">3.1415926535897932</span>+</h3>
 			          <p>Satisfied Clients</p>
-			        </div>{/* /.funfact-one__single */}
-			      </div>{/* /.col-lg-3 col-md-6 */}
+			        </div>
+			      </div>
 			      <div className="col-lg-3 col-md-6">
 			        <div className="funfact-one__single">
 			          <div className="funfact-one__icon">
 			            <i className="far fa-cloud-download" />
-			          </div>{/* /.funfact-one__icon */}
-			          <h3><span className="counter">90</span>{/* /.counter */}
+			          </div>
+			          <h3><span className="counter">90</span>
 			          </h3>
 			          <p>Win Awards</p>
-			        </div>{/* /.funfact-one__single */}
-			      </div>{/* /.col-lg-3 col-md-6 */}
+			        </div>
+			      </div>
 			      <div className="col-lg-3 col-md-6">
 			        <div className="funfact-one__single">
 			          <div className="funfact-one__icon">
 			            <i className="far fa-star" />
-			          </div>{/* /.funfact-one__icon */}
-			          <h3><span className="counter">5</span>{/* /.counter */}+</h3>
+			          </div>
+			          <h3><span className="counter">5</span>+</h3>
 			          <p>Team Member</p>
-			        </div>{/* /.funfact-one__single */}
-			      </div>{/* /.col-lg-3 col-md-6 */}
-			    </div>{/* /.row */}
-			  </div>{/* /.container */}
+			        </div>
+			      </div>
+			    </div>
+			  </div>
 			</section>
 
         }

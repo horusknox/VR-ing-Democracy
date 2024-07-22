@@ -27,7 +27,7 @@ class NavbarV4 extends Component {
 			    <div className="container-fluid">
 			      <div className="main-nav__logo-box">
 			        <Link to="/">
-			          <img src={publicUrl+"assets/images/logo-full-light.png"} alt={ imgattr } />
+			          {/* <img src={publicUrl+"assets/images/logo-full-light.png"} alt={ imgattr } /> */}
 			        </Link>
 			      </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">
@@ -70,11 +70,11 @@ class NavbarV4 extends Component {
 			            </ul>{/* /.sub-menu */}
 			          </li>
 			          <li className="dropdown">
-			            <Link to="/blog-standard">News</Link>
+			            <Link to="/News">News</Link>
 			            <ul>
-			              <li><Link to="/blog-grid">News Page</Link></li>
-			              <li><Link to="/blog-list">News List</Link></li>
-			              <li><Link to="/blog-details">News Details</Link></li>
+			              <li><Link to="/News">News Page</Link></li>
+			              <li><Link to="/News">News List</Link></li>
+			              <li><Link to="/News">News Details</Link></li>
 			            </ul>{/* /.sub-menu */}
 			          </li>
 			          <li>

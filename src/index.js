@@ -21,6 +21,9 @@ import BlogGrid from './components/blog-grid';
 import BlogList from './components/blog-list';
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
+import QuestLocation from './components/questLocation';
+import News from './components/News';
+
 
 class Root extends Component {
     render() {
@@ -33,6 +36,8 @@ class Root extends Component {
                         <Route path="/home-v3" element={<HomeV3 />} />
                         <Route path="/home-v4" element={<HomeV4 />} />
                         <Route path="/about" element={<About />} />
+                        <Route path="/News" element={<News />} />
+                        <Route path="/QuestLocation" element={<QuestLocation />} />
                         <Route path="/service" element={<Service />} />
                         <Route path="/service-v2" element={<ServiceV2 />} />
                         <Route path="/service-details" element={<ServiceDetails />} />

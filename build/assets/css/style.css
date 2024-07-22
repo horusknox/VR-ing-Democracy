@@ -1721,8 +1721,8 @@ h6 {
 }
 
 .brand-one__service-page {
-	background-image: -webkit-gradient(linear, left top, right top, from(rgba(75, 40, 196, .9)), to(rgba(139, 63, 174, .9)));
-	background-image: linear-gradient(90deg, rgba(75, 40, 196, .9) 0%, rgba(139, 63, 174, .9) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(74, 40, 196, 0.582)), to(rgba(139, 63, 174, 0.76)));
+	background-image: linear-gradient(90deg, rgba(74, 40, 196, 0.527) 0%, rgba(139, 63, 174, 0.726) 100%);
 }
 
 .brand-one__service-page .brand-one__carousel .owl-item img {
@@ -5994,8 +5994,8 @@ h6 {
 /* cta two about page */
 
 .cta-two__about-page::before {
-	background-image: -webkit-gradient(linear, left top, right top, from(#4b28c4), to(#8b3fae));
-	background-image: linear-gradient(90deg, #4b28c4 0%, #8b3fae 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#4a28c49c), to(#8b3fae8f));
+	background-image: linear-gradient(90deg, #4a28c4be 0%rgba(139, 63, 174, 0.555)ae 100%);
 	background-color: transparent;
 }
 

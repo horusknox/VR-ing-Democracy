@@ -13,7 +13,8 @@ class Navbar extends Component {
 			    <div className="container-fluid">
 			      <div className="main-nav__logo-box">
 			        <Link to="/">
-			          <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } />
+			          {/* <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } /> */}
+					  {/* <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(0.5)', transformOrigin: '0 0' }} /> */}
 			        </Link>
 			        <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
 			      </div>{/* /.main-nav__logo-box */}
@@ -43,7 +44,8 @@ class Navbar extends Component {
 			          {/* </li> */}
 			          <li>
 			          {/* <li className="dropdown"> */}
-			            <a href="#">Quest location</a>
+			            {/* <a href="/QuestLocation">Quest location</a> */}
+			            <Link to="/QuestLocation">Quest Location</Link>
 			            {/* <ul>
 			              <li><Link to="/portfolio-standard">Portfolio Standard</Link></li>
 			              <li><Link to="/portfolio-full">Portfolio Full</Link></li>
@@ -65,7 +67,7 @@ class Navbar extends Component {
 			          {/* </li> */}
 			          <li>
 			          {/* <li className="dropdown"> */}
-			            <Link to="/blog-grid">News</Link>
+			            <Link to="/News">News</Link>
 			            {/* <ul>
 			              <li><Link to="/blog-grid">News Page</Link></li>
 			              <li><Link to="/blog-list">News List</Link></li>

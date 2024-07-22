@@ -17,8 +17,9 @@ class Banner extends Component {
 				        <div className="banner-one__content">
 				          <h3><span>VR'ing </span> <br />Democracy <br /></h3>
 				          <p>Empowering every vote through virtual reality</p>
-				          <Link to="/service" className="thm-btn banner-one__btn"> Get in touch <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
-				        </div>
+				          {/* <Link to="/service" className="thm-btn banner-one__btn"> Get in touch <i className="fa fa-angle-double-right" /></Link> */}
+						  <a class="thm-btn banner-one__btn" href="https://forms.gle/Q8hsDJWFTpyfpeQA6"> Pre Register Now!<i class="fa fa-angle-double-right"></i></a>
+						</div>
 				      </div>
 				    </div>
 				  </div>

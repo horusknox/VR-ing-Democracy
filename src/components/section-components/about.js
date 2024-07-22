@@ -14,35 +14,35 @@ class AboutPage extends Component {
 			    <div className="row">
 			      <div className="col-lg-6">
 			        <div className="service-two__image">
-			          <img src={publicUrl+"assets/images/resources/about-page-moc-1.png"} alt={ imagealt } />
+			          <img src={publicUrl+"assets/images/resources/about-page-moc-1.jpg"}  style={{borderRadius:'50px'}} alt={ imagealt } />
 			        </div>{/* /.service-two__image */}
 			      </div>{/* /.col-lg-6 */}
 			      <div className="col-lg-6">
 			        <div className="service-two__block">
 			          <div className="block-title-two text-left">
 			            <p>about us</p>
-			            <h3>Jasmine<br /> Liu</h3>
+			            <h3>Our Mission</h3>
 			          </div>{/* /.block-title-two */}
-			          <p>This is a test commit for jasmine to understand github and react.js </p>
+			          <p>Our project, VR'ing Democracy, will harness the power of interactive education through virtual reality to deliver engaging and easily-accessible voting education to underrepresented voters. Our virtual reality application project is specifically targeted towards lower-income and marginalized communities to:</p>
 			          <ul className="list-unstyled video-one__list">
 			            <li>
 			              <i className="far fa-check" />
-			              Smashing Book 6 Is Here New Frontiers In Web Design
-			            </li>
+						  Fight off the daunting steps into democratic participation.
+						  </li>
 			            <li>
 			              <i className="far fa-check" />
-			              Introduction To Animation And The iMessage App Store With Shruggie
-			            </li>
+						  Help each citizen make informed decisions
+						  </li>
 			            <li>
 			              <i className="far fa-check" />
-			              Get Your Mobile Site Ready For The 2018 Holiday ways goods
-			            </li>
-			            <li>
-			              <i className="far fa-check" />
+						  Alleviate the tech divide			            </li>
+			            {/* <li> */}
+			              {/* <i className="far fa-check" />
 			              Making Distributed Product Teams Work More Efficiently other
-			            </li>
+			            </li> */}
 			          </ul>{/* /.list-unstyled video-one__list */}
-			          <Link to="/service" className="thm-btn">Read More <i className="fa fa-angle-double-right" /></Link>
+			          {/* <Link to="/service" className="thm-btn">Read More <i className="fa fa-angle-double-right" /></Link> */}
+					  <a class="thm-btn banner-one__btn" href="https://forms.gle/Q8hsDJWFTpyfpeQA6" style={{color:"white",backgroundColor:"black"}}> Pre Register Now!<i class="fa fa-angle-double-right"></i></a>
 			          {/* /.thm-btn */}
 			        </div>{/* /.service-two__block */}
 			      </div>{/* /.col-lg-5 */}

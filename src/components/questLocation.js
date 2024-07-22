@@ -7,33 +7,18 @@ import Cta from "./section-components/cta-v9";
 import Team from "./section-components/team-v2";
 import Testimonial from "./section-components/testimonial-style-one";
 import Brand from "./section-components/brand-v4";
-import AboutV6 from "./section-components/about-v6";
 import Footer from "./global-components/footer-v2";
+import CustomAboutForQuestLocation from "./customAboutForQuestLocation";
 
-const AboutPage = () => {
+
+const QuestLocation = () => {
   return (
     <div>
       <Navbar />
-      <PageHeader headertitle="About Us" />
-      <About />
-      {/* <FunfactV4 /> */}
-      <Cta />
-      <Team />
-      <hr
-        style={{
-          border: "none",
-          height: "2px",
-          background: "linear-gradient(to right,#8a3eaf, #5f2fbd)",
-          margin: "auto",
-          width: "30%",
-        }}
-      />{" "}
-      {/* <Testimonial /> */}
-      <Brand />
-      <AboutV6 />
+      <CustomAboutForQuestLocation/>
       <Footer />
     </div>
   );
 };
 
-export default AboutPage;
+export default QuestLocation;
