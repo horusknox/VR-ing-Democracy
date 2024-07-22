@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/VR-ing-Democracy/static/js/main.e93f48c4.js",
+    "main.js": "/VR-ing-Democracy/static/js/main.fa52e458.js",
     "index.html": "/VR-ing-Democracy/index.html",
-    "main.e93f48c4.js.map": "/VR-ing-Democracy/static/js/main.e93f48c4.js.map"
+    "main.fa52e458.js.map": "/VR-ing-Democracy/static/js/main.fa52e458.js.map"
   },
   "entrypoints": [
-    "static/js/main.e93f48c4.js"
+    "static/js/main.fa52e458.js"
   ]
 }
