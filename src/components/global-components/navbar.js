@@ -8,7 +8,7 @@ class Navbar extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return (
-           <header className="site-header-one go-top">
+           <header className="site-header-one go-top" >
 			  <nav className="main-nav__one stricky">
 			    <div className="container-fluid">
 			      <div className="main-nav__logo-box">
@@ -17,13 +17,14 @@ class Navbar extends Component {
 					  {/* <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(0.5)', transformOrigin: '0 0' }} /> */}
 			        </Link>
 					<a href="#" className="side-menu__toggler">
-      <i className="fa fa-bars" style={{ color: 'black' }} />
-    </a>			      </div>{/* /.main-nav__logo-box */}
+      <i className="fa fa-bars"  />
+    </a>			     
+	 </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">
 			        <ul className=" main-nav__navigation-box">
 			          {/* <li> */}
-			          <li className="dropdown">
-			            <Link to="/">Home</Link>
+			          <li>
+			            <Link to="/" style={{ color: 'black' }}>Home</Link>
 			            {/* <ul>
 			              <li><Link to="/home-v2">Home 02</Link></li>
 			              <li><Link to="/home-v3">Home 03</Link></li>
@@ -31,7 +32,7 @@ class Navbar extends Component {
 			            </ul>/.sub-menu*/}
 			          </li> 
 			          <li>
-			            <Link to="/about">About Us</Link>
+			            <Link to="/about" style={{ color: 'black' }}>About Us</Link>
 			          </li>
 			          {/* <li> */}
 			          {/* <li className="dropdown"> */}
@@ -46,7 +47,7 @@ class Navbar extends Component {
 			          <li>
 			          {/* <li className="dropdown"> */}
 			            {/* <a href="/QuestLocation">Quest location</a> */}
-			            <Link to="/QuestLocation">Quest Location</Link>
+			            <Link to="/QuestLocation" style={{ color: 'black' }}>Quest Location</Link>
 			            {/* <ul>
 			              <li><Link to="/portfolio-standard">Portfolio Standard</Link></li>
 			              <li><Link to="/portfolio-full">Portfolio Full</Link></li>
@@ -68,7 +69,7 @@ class Navbar extends Component {
 			          {/* </li> */}
 			          <li>
 			          {/* <li className="dropdown"> */}
-			            <Link to="/News">News</Link>
+			            <Link to="/News" style={{ color: 'black' }}>News</Link>
 			            {/* <ul>
 			              <li><Link to="/blog-grid">News Page</Link></li>
 			              <li><Link to="/blog-list">News List</Link></li>
@@ -77,7 +78,7 @@ class Navbar extends Component {
 						{/* /.sub-menu */}
 			          </li>
 			          <li>
-			            <Link to="/contact">Contact</Link>
+			            <Link to="/contact" style={{ color: 'black' }}>Contact</Link>
 			          </li>
 			        </ul>
 			      </div>{/* /.main-nav__main-navigation */}

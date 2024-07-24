@@ -165,7 +165,7 @@
 
     console.log($('.side-menu__toggler').length);
     if ($('.side-menu__toggler').length) {
-        $('.side-menu__toggler').on('click', function (e) {
+        $('.side-menu__toggler').off('click').on('click', function (e) {
             // $('.side-menu__block').toggleClass('active');
             //do the same without using the toggle class
             if($('.side-menu__block').hasClass('active')){
@@ -178,6 +178,7 @@
             e.preventDefault();
         });
     }
+    
 
     if ($('.side-menu__block-overlay').length) {
         $('.side-menu__block-overlay').on('click', function (e) {
