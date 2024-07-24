@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './global-components/navbar-v2';
+import Navbar from './global-components/navbar';
 import Banner from './section-components/banner-style-two';
 import Brand from './section-components/brand-two';
 import WhyChooseUs from './section-components/why-choose-us-v2';

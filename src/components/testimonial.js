@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './global-components/navbar-v2';
+import Navbar from './global-components/navbar';
 import PageHeader from './global-components/page-header';
 import TestimonialV5 from './section-components/testimonial-v5';
 import TestimonialV2 from './section-components/testimonial-v2';

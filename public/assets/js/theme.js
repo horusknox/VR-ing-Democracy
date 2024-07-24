@@ -163,13 +163,22 @@
         $('.stricky').addClass('original').clone(true).insertAfter('.stricky').addClass('stricked-menu').removeClass('original');
     }
 
-
+    console.log($('.side-menu__toggler').length);
     if ($('.side-menu__toggler').length) {
-        $('.side-menu__toggler').on('click', function (e) {
-            $('.side-menu__block').toggleClass('active');
+        $('.side-menu__toggler').off('click').on('click', function (e) {
+            // $('.side-menu__block').toggleClass('active');
+            //do the same without using the toggle class
+            if($('.side-menu__block').hasClass('active')){
+                $('.side-menu__block').removeClass('active');
+                console.log("removed the active class after user click");
+            }else{
+                $('.side-menu__block').addClass('active');
+                console.log("added the active class after user click");
+            }
             e.preventDefault();
         });
     }
+    
 
     if ($('.side-menu__block-overlay').length) {
         $('.side-menu__block-overlay').on('click', function (e) {

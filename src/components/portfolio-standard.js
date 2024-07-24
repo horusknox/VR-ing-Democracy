@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './global-components/navbar-v2';
+import Navbar from './global-components/navbar';
 import PageHeader from './global-components/page-header';
 import Portfolio from './section-components/portfolio-standard';
 import Cta from './section-components/cta-v10';

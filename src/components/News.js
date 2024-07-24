@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
-import Navbar from "./global-components/navbar-v2";
+import Navbar from "./global-components/navbar";
 import Footer from "./global-components/footer-v2";
 
 class News extends Component {

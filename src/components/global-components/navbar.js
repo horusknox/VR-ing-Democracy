@@ -16,19 +16,20 @@ class Navbar extends Component {
 			          {/* <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } /> */}
 					  {/* <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(0.5)', transformOrigin: '0 0' }} /> */}
 			        </Link>
-			        <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
-			      </div>{/* /.main-nav__logo-box */}
+					<a href="#" className="side-menu__toggler">
+      <i className="fa fa-bars" style={{ color: 'black' }} />
+    </a>			      </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">
 			        <ul className=" main-nav__navigation-box">
 			          {/* <li> */}
-			          {/* <li className="dropdown"> */}
-			            {/* <Link to="/">Home</Link> */}
+			          <li className="dropdown">
+			            <Link to="/">Home</Link>
 			            {/* <ul>
 			              <li><Link to="/home-v2">Home 02</Link></li>
 			              <li><Link to="/home-v3">Home 03</Link></li>
 			              <li><Link to="/home-v4">Home 04</Link></li>
 			            </ul>/.sub-menu*/}
-			          {/* </li>  */}
+			          </li> 
 			          <li>
 			            <Link to="/about">About Us</Link>
 			          </li>
