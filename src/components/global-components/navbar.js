@@ -8,7 +8,7 @@ class Navbar extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return (
-           <header className="site-header-one go-top" >
+           <header className="site-header-one go-top" style={{"marginBottom":"20px"}}>
 			  <nav className="main-nav__one stricky">
 			    <div className="container-fluid">
 			      <div className="main-nav__logo-box">
@@ -17,7 +17,7 @@ class Navbar extends Component {
 					  {/* <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(0.5)', transformOrigin: '0 0' }} /> */}
 			        </Link>
 					<a href="#" className="side-menu__toggler">
-      <i className="fa fa-bars"  />
+      <i className="fa fa-bars"  style={{color:"black"}}/>
     </a>			     
 	 </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">

@@ -13,6 +13,9 @@ import Footer from "./global-components/footer-v2";
 const AboutPage = () => {
   return (
     <div>
+      <br></br>
+      <br></br>
+      <br></br>
       <Navbar />
       <PageHeader headertitle="About Us" />
       <About />

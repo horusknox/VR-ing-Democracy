@@ -14,6 +14,9 @@ import CustomAboutForQuestLocation from "./customAboutForQuestLocation";
 const QuestLocation = () => {
   return (
     <div>
+      <br></br>
+      <br></br>
+      <br></br>
       <Navbar />
       <CustomAboutForQuestLocation/>
       <Footer />
