@@ -60,7 +60,8 @@ class Navbar extends Component {
                 </li>
                 <li>
                   <Link to="/contact" style={{ color: 'black' }}>Contact</Link>
-                </li>
+                </li> 
+                
               </ul>
             </div>{/* /.main-nav__main-navigation */}
             <div className="main-nav__right">
