@@ -14,7 +14,7 @@ class Navbar extends Component {
 			      <div className="main-nav__logo-box">
 			        <Link to="/">
 			          {/* <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } /> */}
-					  {/* <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(0.5)', transformOrigin: '0 0' }} /> */}
+					  <img src={publicUrl + "assets/images/logo-full-light.jpg"} alt={imgattr} style={{ transform: 'scale(4)', transformOrigin: '0 0' }} />
 			        </Link>
 					<a href="#" className="side-menu__toggler">
       <i className="fa fa-bars"  style={{color:"black"}}/>
