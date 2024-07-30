@@ -7,7 +7,7 @@ import Cta from "./section-components/cta-v9";
 import Team from "./section-components/team-v2";
 import Testimonial from "./section-components/testimonial-style-one";
 import Brand from "./section-components/brand-v4";
-import Footer from "./global-components/footer-v2";
+import Footer from "./global-components/footer";
 import CustomAboutForQuestLocation from "./customAboutForQuestLocation";
 
 

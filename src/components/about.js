@@ -8,7 +8,7 @@ import Team from "./section-components/team-v2";
 import Testimonial from "./section-components/testimonial-style-one";
 import Brand from "./section-components/brand-v4";
 import AboutV6 from "./section-components/about-v6";
-import Footer from "./global-components/footer-v2";
+import Footer from "./global-components/footer";
 
 const AboutPage = () => {
   return (
