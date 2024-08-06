@@ -24,7 +24,7 @@ const Home_V1 = () => {
         <AboutStyleTwo />
         <Team />
         {/* <Skill /> */}
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Funfact />
         <hr></hr>
         {/* <Testimonial /> */}
