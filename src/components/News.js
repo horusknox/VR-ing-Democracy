@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
 import Navbar from "./global-components/navbar";
 import Footer from "./global-components/footer";
 
@@ -15,7 +13,7 @@ class News extends Component {
         <br></br>
         <br></br>
         <Navbar />
-        <section className="service-two service-two__service-page service-two__about-page  go-top">
+        <section className="service-two service-two__service-page service-two__about-page go-top">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -28,43 +26,39 @@ class News extends Component {
                     alt={imagealt}
                   />
                 </div>
-                {/* /.service-two__image */}
               </div>
-              {/* /.col-lg-6 */}
               <div className="col-lg-6">
                 <div className="service-two__block">
                   <div className="block-title-two text-left">
-                    <p>We'll be right back!</p>
-                    <h3>Please stay tuned in!</h3>
+                  <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/wx1xCjxkETc?"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/39VZs7WW8VQ"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                    <br></br>
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/N80hbrR6U28"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
                   </div>
-                  {/* /.block-title-two */}
-                  <p>
-                    We will be sure to put any and all updates, announcements and other important stuff here ASAP!
-                  </p>
-                  {/* <ul className="list-unstyled video-one__list">
-                    <li>
-                      <i className="far fa-check" />
-                      Fight off the daunting steps into democratic
-                      participation.
-                    </li>
-                    <li>
-                      <i className="far fa-check" />
-                      Help each citizen make informed decisions
-                    </li>
-                    <li>
-                      <i className="far fa-check" />
-                      Alleviate the tech divide{" "}
-                    </li>
-                  </ul> */}
-                  {/* /.list-unstyled video-one__list */}
-                  {/* <Link to="/service" className="thm-btn">Read More <i className="fa fa-angle-double-right" /></Link> */}
-                  <a
-                    class="thm-btn banner-one__btn"
-                    href="https://forms.gle/Q8hsDJWFTpyfpeQA6"
-                    style={{ color: "white", backgroundColor: "black" }}
-                  >
-                    Pre Register Now!<i class="fa fa-angle-double-right"></i>
-                  </a>
                 </div>
               </div>
             </div>
