@@ -122,6 +122,29 @@ const customQuestLocation = () => {
             </div>
           </div>
         </div>
+
+        {/* New Card for Oct 20 VR democracy presentation */}
+        <div className="card mb-4">
+          <div className="card-body d-flex flex-column flex-md-row align-items-center">
+            <div
+              className="d-flex align-items-center justify-content-center bg-primary rounded-circle"
+              style={{
+                width: "40px",
+                height: "40px",
+                marginRight: "15px",
+                color: "white",
+              }}
+            >
+              <i className="bi bi-calendar"></i>
+            </div>
+            <div>
+              <h5 className="fw-bold mb-1">Sunday, Oct 20</h5>
+              <p className="text-muted mb-0">
+                Presentation at SF Girl Scout's Entrepreneurship/Civic Engagement Summit, 3-4pm
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
