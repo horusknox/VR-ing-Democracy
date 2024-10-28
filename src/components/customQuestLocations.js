@@ -100,7 +100,7 @@ const customQuestLocation = () => {
           </div>
         </div>
 
-        {/* New Card for Oct 20 VR democracy presentation */}
+        {/* Card 5 */}
         <div className="card mb-4">
           <div className="card-body d-flex flex-column flex-md-row align-items-center">
             <div
@@ -123,7 +123,7 @@ const customQuestLocation = () => {
           </div>
         </div>
 
-        {/* New Card for Youth Civic Engagement Panel */}
+        {/* Card 6 */}
         <div className="card mb-4">
           <div className="card-body d-flex flex-column flex-md-row align-items-center">
             <div
@@ -146,7 +146,7 @@ const customQuestLocation = () => {
           </div>
         </div>
 
-        {/* Card 5 */}
+        {/* Card 7 */}
         <div className="card mb-4">
           <div className="card-body d-flex flex-column flex-md-row align-items-center">
             <div
@@ -161,13 +161,37 @@ const customQuestLocation = () => {
               <i className="bi bi-calendar"></i>
             </div>
             <div>
-              <h5 className="fw-bold mb-1">Saturday, October 26</h5>
+              <h5 className="fw-bold mb-1">Saturday, Oct 26</h5>
               <p className="text-muted mb-0">
                 SFPL Parkside Public Library, 3:30-4:30pm
               </p>
             </div>
           </div>
         </div>
+
+        {/* Card 8 */}
+        <div className="card mb-4">
+          <div className="card-body d-flex flex-column flex-md-row align-items-center">
+            <div
+              className="d-flex align-items-center justify-content-center bg-primary rounded-circle"
+              style={{
+                width: "40px",
+                height: "40px",
+                marginRight: "15px",
+                color: "white",
+              }}
+            >
+              <i className="bi bi-calendar"></i>
+            </div>
+            <div>
+              <h5 className="fw-bold mb-1">Tuesday, Oct 29</h5>
+              <p className="text-muted mb-0">
+                Youth Power Listening Party - Teen changemakers speak out about the upcoming election, 5-8pm @ KALW Public Media
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
