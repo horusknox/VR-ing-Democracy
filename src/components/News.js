@@ -13,9 +13,10 @@ class News extends Component {
         <br />
         <br />
         <Navbar />
-        {/* Hero Section with Announcement Card */}
+        {/* Hero Section with Announcement Cards */}
         <section className="hero-section">
           <div className="container">
+            {/* New Announcement Box for VRing Democracy */}
             <div
               className="announcement-card"
               style={{
@@ -26,7 +27,43 @@ class News extends Component {
                 margin: "auto",
                 textAlign: "center",
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-                marginTop: "100px"
+                marginTop: "100px",
+                marginBottom: "20px"
+              }}
+            >
+              <h2>Press Release: VRing Democracy</h2>
+              <p>
+                VRing Democracy was recently featured in the press! Discover more about the impact and goals of this project:
+              </p>
+              <a
+                href="https://www.kalw.org/show/bay-made/2024-11-07/bay-votes-the-youth-speak"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "10px 20px",
+                  backgroundColor: "#28a745",
+                  color: "#fff",
+                  borderRadius: "4px",
+                  textDecoration: "none",
+                  marginTop: "10px"
+                }}
+              >
+                VRing Democracy in the Press
+              </a>
+            </div>
+
+            {/* Existing Announcement Box for Youth Civic Solutions */}
+            <div
+              className="announcement-card"
+              style={{
+                border: "1px solid #ccc",
+                borderRadius: "8px",
+                padding: "20px",
+                maxWidth: "600px",
+                margin: "auto",
+                textAlign: "center",
+                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)"
               }}
             >
               {/* Image from the website */}
