@@ -3,11 +3,26 @@ import React from "react";
 const customQuestLocation = () => {
   return (
     <div className="container mt-5">
+      {/* Announcement Section */}
+      <div className="announcement mb-5 text-center">
+        <h3 className="text-primary fw-bold mb-3">Check this out</h3>
+        <p className="text-muted mb-3">
+          Check out the latest announcement from LWVSF on their official page!
+        </p>
+        <a
+          href="https://x.com/LWVSF/status/1839370736194257188?prefetchTimestamp=1732322037947"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary"
+        >
+          View Announcement
+        </a>
+      </div>
+
       <h2 className="text-center mb-5">Event Timeline</h2>
 
       {/* Timeline wrapper */}
       <div className="timeline d-flex flex-column" style={{ position: "relative" }}>
-
         {/* Card 1 */}
         <div className="card mb-4">
           <div className="card-body d-flex flex-column flex-md-row align-items-center">
@@ -191,7 +206,6 @@ const customQuestLocation = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

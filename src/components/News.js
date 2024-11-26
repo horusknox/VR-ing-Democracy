@@ -16,7 +16,7 @@ class News extends Component {
         {/* Hero Section with Announcement Cards */}
         <section className="hero-section">
           <div className="container">
-            {/* New Announcement Box for VRing Democracy */}
+            {/* New Announcement Box for The Youth Civic Solutions */}
             <div
               className="announcement-card"
               style={{
@@ -28,12 +28,51 @@ class News extends Component {
                 textAlign: "center",
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
                 marginTop: "100px",
-                marginBottom: "20px"
+                marginBottom: "20px",
+              }}
+            >
+              <h2>Announcement: The Youth Civic Solutions</h2>
+              <p>
+                Discover the latest agenda and initiatives from The Youth Civic
+                Solutions. Explore how they are shaping the future of civic
+                engagement and leadership.
+              </p>
+              <a
+                href="https://ncoc.org/2024-agenda/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "10px 20px",
+                  backgroundColor: "#7135b7",
+                  color: "#fff",
+                  borderRadius: "4px",
+                  textDecoration: "none",
+                  marginTop: "10px",
+                }}
+              >
+                View Agenda
+              </a>
+            </div>
+
+            {/* Announcement Box for VRing Democracy */}
+            <div
+              className="announcement-card"
+              style={{
+                border: "1px solid #ccc",
+                borderRadius: "8px",
+                padding: "20px",
+                maxWidth: "600px",
+                margin: "auto",
+                textAlign: "center",
+                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+                marginBottom: "20px",
               }}
             >
               <h2>Press Release: VRing Democracy</h2>
               <p>
-                VRing Democracy was recently featured in the press! Discover more about the impact and goals of this project:
+                VRing Democracy was recently featured in the press! Discover
+                more about the impact and goals of this project:
               </p>
               <a
                 href="https://www.kalw.org/show/bay-made/2024-11-07/bay-votes-the-youth-speak"
@@ -46,14 +85,14 @@ class News extends Component {
                   color: "#fff",
                   borderRadius: "4px",
                   textDecoration: "none",
-                  marginTop: "10px"
+                  marginTop: "10px",
                 }}
               >
                 VRing Democracy in the Press
               </a>
             </div>
 
-            {/* Existing Announcement Box for Youth Civic Solutions */}
+            {/* Existing Announcement Box for Youth Civic Solutions Competition Winners */}
             <div
               className="announcement-card"
               style={{
@@ -63,20 +102,24 @@ class News extends Component {
                 maxWidth: "600px",
                 margin: "auto",
                 textAlign: "center",
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)"
+                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
               }}
             >
               {/* Image from the website */}
               <img
                 src="https://citizensandscholars.org/wp-content/uploads/2024/10/YCSC-14.png"
                 alt="Youth Civic Solutions Announcement"
-                style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+                style={{
+                  width: "100%",
+                  borderRadius: "8px",
+                  marginBottom: "15px",
+                }}
               />
               <h2>Announcement: Youth Civic Solutions Competition Winners</h2>
               <p>
-                Citizens & Scholars has announced the winners of the Youth Civic
-                Solutions Competition. Learn more about the inspiring projects and
-                ideas by visiting the link below.
+                Citizens & Scholars has announced the winners of the Youth
+                Civic Solutions Competition. Learn more about the inspiring
+                projects and ideas by visiting the link below.
               </p>
               <a
                 href="https://citizensandscholars.org/citizens-scholars-announces-winners-of-the-youth-civic-solutions-competition/?utm_content=bufferd468d&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
@@ -89,7 +132,7 @@ class News extends Component {
                   color: "#fff",
                   borderRadius: "4px",
                   textDecoration: "none",
-                  marginTop: "10px"
+                  marginTop: "10px",
                 }}
               >
                 View Announcement
@@ -98,58 +141,6 @@ class News extends Component {
           </div>
         </section>
 
-        {/* Content Section */}
-        <section className="service-two service-two__service-page service-two__about-page go-top">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="service-two__image">
-                  <img
-                    src={
-                      publicUrl + "assets/images/resources/about-page-moc-1.jpg"
-                    }
-                    style={{ borderRadius: "50px" }}
-                    alt={imagealt}
-                  />
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="service-two__block">
-                  <div className="block-title-two text-left">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/wx1xCjxkETc?"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/39VZs7WW8VQ"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                    <br />
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/N80hbrR6U28"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <Footer />
       </div>
     );
@@ -157,4 +148,3 @@ class News extends Component {
 }
 
 export default News;
- //
