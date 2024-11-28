@@ -10,12 +10,42 @@ class News extends Component {
     return (
       <div>
         <br />
-        <br />
-        <br />
         <Navbar />
         {/* Hero Section with Announcement Cards */}
         <section className="hero-section">
           <div className="container">
+            {/* Auto-Playing Video */}
+            <div
+              className="video-container"
+              style={{
+                margin: "auto",
+                maxWidth: "600px",
+                marginBottom: "30px",
+                textAlign: "center",
+              }}
+            >
+
+<br />
+<br />
+<br />
+<br />
+
+              
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/NbZg4mcOmeA?autoplay=1&mute=1"
+                title="YouTube video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{
+                  borderRadius: "8px",
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+                }}
+              ></iframe>
+            </div>
+
             {/* New Announcement Box for The Youth Civic Solutions */}
             <div
               className="announcement-card"
