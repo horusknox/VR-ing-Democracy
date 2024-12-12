@@ -8,21 +8,60 @@ class Banner extends Component {
     return (
       <>
         {/* Scrolling Announcement */}
-        <div className="announcement-bar" style={styles.announcementBar}>
-        
-          <span style={styles.announcementText}>
-            AI Policy and Social Impact Webinar in collaboration with OpenNLP Labs
-          </span>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		    <a
-            href="https://www.eventbrite.com/e/ai-policy-and-social-impact-webinar-tickets-1097388581789?aff=oddtdtcreator"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={styles.announcementButton}
+        <div
+          className="announcement-bar d-flex align-items-center"
+          style={{
+            overflow: 'hidden',
+            whiteSpace: 'nowrap',
+            position: 'relative',
+            backgroundColor: '#d24ca2', // Matches your style
+            color: '#fff',
+            zIndex: 10,
+          }}
+        >
+          <div
+            className="announcement-content"
+            style={{
+              display: 'inline-block',
+              animation: 'scroll 10s linear infinite',
+            }}
           >
-            Sign up now!
-          </a>
+            <span style={{ marginRight: '20px', fontSize: '16px', color: '#fff' }}>
+              AI Policy and Social Impact Webinar in collaboration with OpenNLP Labs
+            </span>
+            <a
+              href="https://www.eventbrite.com/e/ai-policy-and-social-impact-webinar-tickets-1097388581789?aff=oddtdtcreator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+              style={{
+                marginLeft: '20px',
+                backgroundColor: '#007bff',
+                border: 'none',
+                padding: '8px 15px',
+                borderRadius: '5px',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+              }}
+            >
+              Sign up now!
+            </a>
+          </div>
         </div>
+
+        <style>
+          {`
+          @keyframes scroll {
+            0% {
+              transform: translateX(100%);
+            }
+            100% {
+              transform: translateX(-100%);
+            }
+          }
+          `}
+        </style>
 
         {/* Banner Section */}
         <section
@@ -32,7 +71,7 @@ class Banner extends Component {
           }}
         >
           <img
-            src={publicUrl + 'assets/images/resources/banner-1-1.png'}
+            src={`${publicUrl}assets/images/resources/banner-1-1.png`}
             alt={imagealt}
             className="banner-one__moc"
           />
@@ -61,45 +100,5 @@ class Banner extends Component {
     );
   }
 }
-
-
-
-const styles = {
-	announcementBar: {
-	  display: 'flex',
-	  alignItems: 'center',
-	  justifyContent: 'center',
-	  padding: '10px',
-	  fontSize: '16px',
-	  color: '#fff',
-	  position: 'relative',
-	  zIndex: 10,
-	  overflow: 'hidden',
-	  whiteSpace: 'nowrap',
-	  backgroundColor: '#000000',
-	},
-	announcementButton: {
-	  display: 'inline-block',
-	  backgroundColor: '#007bff',
-	  color: '#fff',
-	  padding: '8px 15px',
-	  borderRadius: '5px',
-	  textDecoration: 'none',
-	  fontWeight: 'bold',
-	  marginRight: '10px',
-	  cursor: 'pointer',
-	  boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-	  transition: 'background-color 0.3s',
-	},
-	announcementButtonHover: {
-	  backgroundColor: '#6732bb',
-	},
-	announcementText: {
-	  color: '#fff',
-	},
-  };
-
-  
-
 
 export default Banner;

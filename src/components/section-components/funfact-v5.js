@@ -17,7 +17,7 @@ class FunfactV5 extends Component {
 			            <div className="funfact-one__icon">
 			              <i className="far fa-mug-hot" />
 			            </div>{/* /.funfact-one__icon */}
-			            <h3><span className="counter">2500</span>{/* /.counter */}+</h3>
+			            <h3><span className="counter">13400</span>{/* /.counter */}+</h3>
 			            <p>Project</p>
 			          </div>{/* /.funfact-one__single */}
 			        </div>{/* /.col-lg-3 col-md-6 */}

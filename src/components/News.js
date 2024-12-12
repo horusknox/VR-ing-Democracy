@@ -46,45 +46,6 @@ class News extends Component {
               ></iframe>
             </div>
 
-            {/* New Announcement Box for The Youth Civic Solutions */}
-            <div
-              className="announcement-card"
-              style={{
-                border: "1px solid #ccc",
-                borderRadius: "8px",
-                padding: "20px",
-                maxWidth: "600px",
-                margin: "auto",
-                textAlign: "center",
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-                marginTop: "100px",
-                marginBottom: "20px",
-              }}
-            >
-              <h2>Announcement: The Youth Civic Solutions</h2>
-              <p>
-                Discover the latest agenda and initiatives from The Youth Civic
-                Solutions. Explore how they are shaping the future of civic
-                engagement and leadership.
-              </p>
-              <a
-                href="https://ncoc.org/2024-agenda/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "inline-block",
-                  padding: "10px 20px",
-                  backgroundColor: "#7135b7",
-                  color: "#fff",
-                  borderRadius: "4px",
-                  textDecoration: "none",
-                  marginTop: "10px",
-                }}
-              >
-                View Agenda
-              </a>
-            </div>
-
             {/* Announcement Box for VRing Democracy */}
             <div
               className="announcement-card"
