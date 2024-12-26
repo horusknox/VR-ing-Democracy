@@ -41,19 +41,7 @@ class PortfolioONe extends Component {
                             </div>
                         </div>
 
-                        {/* Partner 3 */}
-                        <div className="col-lg-4" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 auto' }}>
-                            <div className="portfolio-one__single" style={{ textAlign: 'center', border: '1px solid #ddd', padding: '20px', borderRadius: '5px' }}>
-                                <img src={publicUrl + "assets/images/portfolio/opennlp-logo.webp"} alt={imagealt} style={{ maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
-                                <div className="portfolio-one__content">
-                                    <div className="portfolio-one__content-inner">
-                                        <h3 style={{ fontSize: '20px', margin: '0 0 10px' }}>
-                                            <Link to="https://opennlp.apache.org/" style={{ color: '#000', textDecoration: 'none' }}>OPEN NLP</Link>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
 
                         {/* Partner 4 */}
                         <div className="col-lg-4" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 auto' }}>
@@ -91,6 +79,19 @@ class PortfolioONe extends Component {
                                     <div className="portfolio-one__content-inner">
                                         <h3 style={{ fontSize: '20px', margin: '0 0 10px' }}>
                                             <Link to="https://www.macys.com/" style={{ color: '#000', textDecoration: 'none' }}>Macy’s</Link>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* Partner 3 */}
+                        <div className="col-lg-4" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 auto' }}>
+                            <div className="portfolio-one__single" style={{ textAlign: 'center', border: '1px solid #ddd', padding: '20px', borderRadius: '5px', maxWidth: '65%' }}>
+                                <img src={publicUrl + "assets/images/portfolio/opennlp-logo.png"} alt={imagealt} style={{ maxWidth: '100%', height: 'auto', marginBottom: '20px' }} />
+                                <div className="portfolio-one__content">
+                                    <div className="portfolio-one__content-inner">
+                                        <h3 style={{ fontSize: '20px', margin: '0 0 10px' }}>
+                                            <Link to="https://opennlplabs.org/" style={{ color: '#000', textDecoration: 'none' }}>OPEN NLP</Link>
                                         </h3>
                                     </div>
                                 </div>
