@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import FeedbackQR from './Feedback QR VRing democracy.png';
+import "./contactPage.css"
 const Contact = () => {
   const form = useRef();
 
@@ -23,6 +24,10 @@ const Contact = () => {
     <div>
       <section className="contact-two">
         <div className="container">
+          {/* Added image at the top */}
+          <div className="contact-two__image">
+            <img src={FeedbackQR} alt="Feedback QR Code for VRing Democracy" className="img-fluid" />
+          </div>
           <div className="row">
             <div className="col-lg-5">
               <div className="contact-two__content">
